@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="259" height="166.49" viewBox="0 0 259 166.49">
+  <style>
+    @keyframes pulse {
+        0% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+        70% {
+          -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+    } 
+
+    @-webkit-keyframes box-1 {
+        from { -webkit-transform: translate(0,  0px); transform: translate(0,  0px); }
+        65%  { -webkit-transform: translate(4px, 6px); transform: translate(4px, 6px); }
+        to   { -webkit-transform: translate(0, 0px); transform: translate(0, 0px); }    
+    }
+
+    @-webkit-keyframes box-2 {
+        from { -webkit-transform: translate(0,  0px); transform: translate(0,  0px); }
+        65%  { -webkit-transform: translate(-2px, -4px); transform: translate(-2px, -4px); }
+        to   { -webkit-transform: translate(0, 0px); transform: translate(0, 0px); }    
+    }
+
+    @-webkit-keyframes cursor_moving {
+        from { -webkit-transform: translate(0,  0px); transform: translate(0,  0px); }
+        65%  { -webkit-transform: translate(-20px, -15px); transform: translate(-20px, -15px); }
+        to   { -webkit-transform: translate(0, 0px); transform: translate(0, 0px); }    
+    }
+
+    #dot-1, #dot-2, #dot-3 {
+      animation: pulse 2s ease-in-out infinite;
+      -webkit-animation: pulse 2s ease-in-out infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    }
+
+    #dot-1 { animation-delay: 1s; }
+    #dot-2 { animation-delay: 1.3s; }
+    #dot-3 { animation-delay: 1.8s; }
+
+    #bar-1 { animation-delay: 1s; }
+    #bar-2 { animation-delay: 1.3s; }
+    #bar-3 { animation-delay: 1.8s; }
+
+    #cursor {
+      animation-duration: 3s; 
+      animation-name: cursor_moving; 
+      animation-iteration-count: infinite; 
+      animation-timing-function: ease-in-out;
+    }
+
+    #box-1 {
+      animation: box-1 2s ease-in-out infinite;
+      -webkit-animation: box-1 2s ease-in-out infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    }
+
+    #box-2 {
+      animation: box-2 2s ease-in-out infinite;
+      -webkit-animation: box-2 2s ease-in-out infinite;
+      -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; transform-box: fill-box;
+    }
+
+  </style>
+  <defs>
+    <filter id="Path_17" x="0" y="0" width="259" height="166.49" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-color="#3e3789" flood-opacity="0.522"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+  </defs>
+  <g id="paid-advertising" transform="translate(-756 -595)">
+    <g transform="matrix(1, 0, 0, 1, 756, 595)" filter="url(#Path_17)">
+      <path id="Path_17-2" data-name="Path 17" d="M0,0H217V124.49H0Z" transform="translate(21 14)" fill="#fff"/>
+    </g>
+    <g id="wew" transform="translate(763 602)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_1" data-name="Path 1" d="M228.962,13.186V125.308a6.252,6.252,0,0,1-6.3,6.187H22.278A6.248,6.248,0,0,1,16,125.308V13.186A6.248,6.248,0,0,1,22.278,7H222.666A6.252,6.252,0,0,1,228.962,13.186Z" fill="#3e3789"/>
+        <path id="Path_2" data-name="Path 2" d="M231,14.285V22H14V14.285C14,10.266,16.874,7,20.4,7H224.585C228.126,7,231,10.266,231,14.285Z" fill="#fff"/>
+        <g id="dot-3">
+          <path id="Path_3" data-name="Path 3" d="M50.935,18.227a3.621,3.621,0,1,0-3.621-3.621A3.621,3.621,0,0,0,50.935,18.227Z" fill="#ffb700"/>
+        </g>
+        <g id="dot-2">
+          <path id="Path_4" data-name="Path 4" d="M39.345,18.227a3.621,3.621,0,1,0-3.621-3.621A3.621,3.621,0,0,0,39.345,18.227Z" fill="#e2209e"/>
+        </g>
+        <g id="dot-1">
+          <path id="Path_5" data-name="Path 5" d="M27.772,18.227a3.621,3.621,0,1,0-3.621-3.621A3.621,3.621,0,0,0,27.772,18.227Z" fill="#5e1dbb"/>
+        </g>
+        <path id="Path_6" data-name="Path 6" d="M81,50H29V98H81Z" fill="#b10073"/>
+        <g id="box-3">
+          <path id="Path_7" data-name="Path 7" d="M227.277,131H191.723c-.95,0-1.723-.482-1.723-1.075v-25.85c0-.593.773-1.075,1.723-1.075h35.554c.95,0,1.723.482,1.723,1.075v25.85C228.991,130.518,228.227,131,227.277,131Z" fill="#5e1dbb"/>
+        </g>
+        <g id="box-1">
+          <path id="Path_8" data-name="Path 8" d="M211,96H198v16h13Z" fill="#ffb700"/>
+        </g>
+        <g id="box-2">
+          <path id="Path_9" data-name="Path 9" d="M220.788,107.312H205.842v14.946h14.946Z" fill="#9364ed"/>
+        </g>
+        <path id="Path_10" data-name="Path 10" d="M34.485,82V75.836h3.2c3.381,0,5.313-1.794,5.313-5.152,0-2.967-1.449-4.922-5.2-4.922H31.863V82Zm0-13.846h2.783c2.277,0,3.013.667,3.013,2.576,0,2.162-1.058,2.737-3.036,2.737h-2.76Zm15.629,14.1a4.328,4.328,0,0,0,3.933-2.116V82h2.484V70.454H54.047v1.863a4.229,4.229,0,0,0-3.91-2.116c-3.2,0-5.405,2.461-5.405,6.026S46.963,82.253,50.114,82.253ZM50.689,80a3.446,3.446,0,0,1-3.427-3.772c0-2.231,1.4-3.795,3.427-3.795,1.932,0,3.381,1.518,3.381,3.795S52.621,80,50.689,80ZM60.976,68.453a1.537,1.537,0,0,0,1.564-1.564,1.578,1.578,0,0,0-3.151,0A1.542,1.542,0,0,0,60.976,68.453ZM62.218,82V70.454H59.711V82Zm7.932.253a4.328,4.328,0,0,0,3.933-2.116V82h2.484V65.141H74.083v7.176a4.229,4.229,0,0,0-3.91-2.116c-3.2,0-5.4,2.461-5.4,6.026S67,82.253,70.15,82.253ZM70.725,80A3.446,3.446,0,0,1,67.3,76.227c0-2.231,1.4-3.795,3.427-3.795,1.932,0,3.381,1.518,3.381,3.795S72.657,80,70.725,80ZM98.3,82,92.385,65.762H89.372L83.461,82h2.783l1.311-3.7H94.2L95.513,82Zm-4.922-6.1H88.383l2.484-7.291Zm11.32,6.348a4.328,4.328,0,0,0,3.933-2.116V82h2.484V65.141h-2.484v7.176a4.229,4.229,0,0,0-3.91-2.116c-3.2,0-5.4,2.461-5.4,6.026S101.543,82.253,104.694,82.253ZM105.269,80a3.446,3.446,0,0,1-3.427-3.772c0-2.231,1.4-3.795,3.427-3.795,1.932,0,3.381,1.518,3.381,3.795S107.2,80,105.269,80Zm13.53-.621-3.174-8.924h-2.76L117.465,82H120.2l4.416-11.546h-2.737Zm18.3-3.151c0-3.611-2.323-6.026-5.75-6.026a5.773,5.773,0,0,0-5.98,6.026c0,3.542,2.415,6.026,6.233,6.026a5.757,5.757,0,0,0,5.244-2.6l-2.07-1.127a3.515,3.515,0,0,1-3.128,1.541,3.439,3.439,0,0,1-3.726-2.921h9.108C137.051,76.848,137.1,76.526,137.1,76.227Zm-5.7-3.91a3.192,3.192,0,0,1,3.266,2.9H127.92A3.413,3.413,0,0,1,131.393,72.317ZM141.95,82V76.549c0-2.162,1.2-3.818,3.174-3.818a7.912,7.912,0,0,1,1.058.069l.023-2.576a3.726,3.726,0,0,0-.506-.023,3.933,3.933,0,0,0-3.772,2.3V70.454h-2.461V82Zm12.67-2.254a4.382,4.382,0,0,1-1.495.253c-1.15,0-1.541-.529-1.541-1.886V72.639h3.036V70.454h-3.036V67.418H149.1v3.036h-2v2.185h2v5.773c0,2.139.759,3.795,3.565,3.795a5.87,5.87,0,0,0,1.978-.3Zm3.7-11.293a1.537,1.537,0,0,0,1.564-1.564,1.578,1.578,0,0,0-3.151,0A1.542,1.542,0,0,0,158.321,68.453ZM159.563,82V70.454h-2.507V82Zm7.426.253c2.99,0,4.554-1.242,4.554-3.68,0-2.323-1.587-3.036-4.255-3.473-1.7-.3-2.461-.667-2.461-1.426,0-.943.805-1.357,2.024-1.357a2.48,2.48,0,0,1,2.438,1.288l2.047-1.127a4.86,4.86,0,0,0-4.554-2.277c-2.392,0-4.416,1.081-4.416,3.565,0,2.116,1.656,2.944,4.094,3.381,2.07.345,2.576.736,2.576,1.541,0,1.035-.621,1.472-2,1.472a3.358,3.358,0,0,1-3.174-1.817L161.814,79.4C162.573,81.149,164.367,82.253,166.989,82.253Zm8.156-13.8a1.537,1.537,0,0,0,1.564-1.564,1.578,1.578,0,0,0-3.151,0A1.542,1.542,0,0,0,175.145,68.453ZM176.387,82V70.454H173.88V82Zm5.724,0V75.882c0-1.955,1.173-3.473,3.036-3.473,1.679,0,2.53.966,2.53,3.128V82h2.461V75.123c0-3.266-1.541-4.922-4.232-4.922a4.123,4.123,0,0,0-3.818,2.07V70.454h-2.461V82Zm16.237,4.761c3.611,0,5.819-2.116,5.819-5.773V70.454h-2.484v1.771a4.277,4.277,0,0,0-3.91-2.024c-3.2,0-5.4,2.415-5.4,5.865,0,3.473,2.231,5.911,5.382,5.911a4.372,4.372,0,0,0,3.933-2.047v1.311c0,2.231-1.2,3.358-3.4,3.358a3.163,3.163,0,0,1-3.036-1.564l-2.185,1.035C194.07,85.933,195.979,86.761,198.348,86.761Zm-.023-6.992a3.681,3.681,0,1,1,3.381-3.68A3.405,3.405,0,0,1,198.325,79.769Zm10.287,2.392a1.662,1.662,0,0,0,1.725-1.7,1.715,1.715,0,0,0-3.427,0A1.656,1.656,0,0,0,208.612,82.161Z" fill="#fff"/>
+      </g>
+      <g id="cursor">
+        <path id="Path_11" data-name="Path 11" d="M76.584,118.68V93.522l18.734,16.807-7.135.082-.759.008.307.694,3,6.782-5.513,2.445-2.973-6.712-.307-.692-.516.553Z" fill="#fff" stroke="#fd521b" stroke-width="1"/>
+        <path id="Path_12" data-name="Path 12" d="M74.535,90.237l-1.82-3.971,1.049-.447,1.82,3.971Z" fill="#fff" stroke="#fd521b" stroke-width="1"/>
+        <path id="Path_13" data-name="Path 13" d="M80.013,90.245l-1.092-.414,1.645-4.189,1.092.414Z" fill="#fff" stroke="#fd521b" stroke-width="1"/>
+        <path id="Path_14" data-name="Path 14" d="M82.926,93.591l-.464-1.048,4.107-1.836.463,1.048Z" fill="#fff" stroke="#fd521b" stroke-width="1"/>
+        <path id="Path_15" data-name="Path 15" d="M71.833,93.779l-4.18-1.58.4-1.007,4.18,1.58Z" fill="#fff" stroke="#fd521b" stroke-width="1"/>
+        <path id="Path_16" data-name="Path 16" d="M68.281,99.993l-.446-.985,4.109-1.749.446.985Z" fill="#fff" stroke="#fd521b" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
